@@ -27,6 +27,7 @@ put this directory inside the cloned yolov5 repository.
 1. Go to the folder where munge.py file is present
 2. Type cmd in the file path 
 3. Run the code with command `python train.py --image_dimension --batch_size  --no_of_epochs --yaml file --configuration --model name`
+ 
  In my case , I used 'python train.py --img 1024 --batch 8 --epochs 100 --data wheat.yaml --cfg models/yolov5s.yaml --name wm'
 
 ## Example Output
